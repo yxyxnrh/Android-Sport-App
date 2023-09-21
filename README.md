@@ -62,17 +62,15 @@
 
 ## realm数据库设计分析
 ![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/bb3cacb4-adb3-4aea-b5f2-55d37191a5f5)
-![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/49ea030d-71cf-4abb-b3f8-073e55fdba47)
-![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/b0027c76-f124-425c-999d-89586cbb8984)
+![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/e59c9fe3-bd9a-46c6-b73e-d96bf34da725)
+![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/9008676a-93ce-4c73-93d5-c58905d6d2fc)
+
 
 ## 最终实现
 ![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/bdc6cc3d-8a77-4edc-bc27-5c252b1ec822)
 ![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/14f36cbe-bf0d-44b8-aa35-9de234aaa2f4)
 ![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/ab3dfa4e-a676-4121-9709-f026baa411a3)
-![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/8c061a32-87f4-4f45-8020-31956f1519cc)
 ![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/c3e482a9-7571-4e7c-9b0a-4b3972467740)
-![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/ca5eb5c6-5d10-43eb-8a95-7e9e1e43cf00)
-![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/d145326e-c227-400d-80e5-8a1c743f03b8)
 ![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/0dc6a1a9-4c3a-4460-b55c-77e474b88b35)
 ![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/2dfa6952-14b1-4668-918b-b9a1b06b4b7b)
 ![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/742e344b-3c6a-4804-8ad9-a3065edb4bae)
