@@ -67,11 +67,9 @@
 
 
 ## 最终实现
-![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/bdc6cc3d-8a77-4edc-bc27-5c252b1ec822)
-![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/14f36cbe-bf0d-44b8-aa35-9de234aaa2f4)
-![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/ab3dfa4e-a676-4121-9709-f026baa411a3)
 ![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/c3e482a9-7571-4e7c-9b0a-4b3972467740)
 ![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/0dc6a1a9-4c3a-4460-b55c-77e474b88b35)
+![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/e64d6a0d-b746-4aaa-ad00-7b58e5758eb6)
 ![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/742e344b-3c6a-4804-8ad9-a3065edb4bae)
 ![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/c057512a-ede5-4045-a3b2-788f14b1db78)
 ![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/9dec7eb6-c8df-45ef-b3ab-0e16c157b43d)
