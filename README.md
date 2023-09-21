@@ -72,7 +72,6 @@
 ![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/ab3dfa4e-a676-4121-9709-f026baa411a3)
 ![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/c3e482a9-7571-4e7c-9b0a-4b3972467740)
 ![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/0dc6a1a9-4c3a-4460-b55c-77e474b88b35)
-![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/2dfa6952-14b1-4668-918b-b9a1b06b4b7b)
 ![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/742e344b-3c6a-4804-8ad9-a3065edb4bae)
 ![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/c057512a-ede5-4045-a3b2-788f14b1db78)
 ![image](https://github.com/yxyxnrh/Android-Sport-App/assets/82510221/9dec7eb6-c8df-45ef-b3ab-0e16c157b43d)
