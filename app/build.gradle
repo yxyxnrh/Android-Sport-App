@@ -1,0 +1,114 @@
+apply plugin: 'com.android.application'
+apply plugin: 'realm-android'
+
+android {
+
+    signingConfigs {
+        debug {
+            storeFile file('D:\\keystore\\changpao.jks')
+            storePassword '123456'
+            keyAlias 'key0'
+            keyPassword '123456'
+        }
+    }
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+
+    compileOptions {
+        sourceCompatibility rootProject.ext.android.java_version
+        targetCompatibility rootProject.ext.android.java_version
+    }
+
+    defaultConfig {
+        applicationId rootProject.ext.android.applicationId
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        // dex突破65535的限制
+        multiDexEnabled true
+
+        ndk {
+            //设置支持的SO库架构（开发者可以根据需要，选择一个或多个平台的so）
+            abiFilters 'armeabi', 'armeabi-v7a', 'x86'
+            // 还可以添加 , 'x86_64', 'mips', 'mips64', 'arm64-v8a', "arm64-v8a"
+        }
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField "boolean", "DEBUG_MODE", "false"
+            signingConfig signingConfigs.debug
+        }
+        debug {
+            minifyEnabled false
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField "boolean", "DEBUG_MODE", "true"
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation rootProject.ext.support["appcompat"]
+    implementation rootProject.ext.support["design"]
+    implementation rootProject.ext.support["recyclerview"]
+    implementation rootProject.ext.support["cardview"]
+    implementation rootProject.ext.support["layout"]
+    testImplementation rootProject.ext.support["testImplementation"]
+    androidTestImplementation rootProject.ext.support["androidtestimplementation_ext"]
+    androidTestImplementation rootProject.ext.support["androidtestimplementation_espresso"]
+
+    //日历控件
+    implementation rootProject.ext.dependencies["calendarview"]
+
+    //butterknife
+    implementation rootProject.ext.dependencies["butterknife_api"]
+    annotationProcessor rootProject.ext.dependencies["annotationProcessor"]
+
+    // RecycleVierw-Adapter
+    implementation rootProject.ext.dependencies["recyclevierw_adapter"]
+
+    //自定义TabLayout
+    implementation rootProject.ext.dependencies["flycotablayout_lib"]
+
+    //沉浸式
+    implementation rootProject.ext.dependencies["immersionbar"]
+    implementation rootProject.ext.dependencies["immersionbar_components"]
+
+    //gson
+    implementation rootProject.ext.dependencies["gson"]
+
+    //utilcode
+    implementation(rootProject.ext.dependencies["utilcode"]) {
+        exclude group: 'com.blankj', module: 'bus'
+    }
+
+    //3D地图
+    implementation rootProject.ext.dependencies["Map_3D"]
+    //搜索功能
+    implementation rootProject.ext.dependencies["Map_search"]
+    //定位SDK
+    implementation rootProject.ext.dependencies["Map_location"]
+
+    // 内存泄漏检测
+    debugImplementation rootProject.ext.dependencies["leakcanary_debug"]
+    releaseImplementation rootProject.ext.dependencies["leakcanary_release"]
+    // Optional, if you use support library fragments:
+    debugImplementation rootProject.ext.dependencies["leakcanary_debug_fragmen"]
+}

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_bg">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="355dp"
+                android:background="@mipmap/sport_bg">
+
+                <TextView
+                    android:id="@+id/tv_sport_mile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:maxLength="6"
+                    android:text="0.00"
+                    android:textColor="@color/white"
+                    android:textSize="80sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_sport_mile"
+                    android:layout_centerHorizontal="true"
+                    android:text="千米"
+                    android:textColor="@color/text_color_white"
+                    android:textSize="@dimen/textsize_3" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/margin_edge_20">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:translationX="110px">
+
+                        <TextView
+                            android:id="@+id/tv_sport_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:ellipsize="end"
+                            android:maxLength="6"
+                            android:text="0"
+                            android:textColor="@color/text_color_white"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_sport_count"
+                            android:layout_centerHorizontal="true"
+                            android:text="总次数"
+                            android:textColor="@color/text_color_white"
+                            android:textSize="@dimen/textsize_3" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:translationX="450px">
+
+                        <TextView
+                            android:id="@+id/tv_sport_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:ellipsize="end"
+                            android:maxLength="6"
+                            android:text="0"
+                            android:textColor="@color/text_color_white"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_sport_time"
+                            android:layout_centerHorizontal="true"
+                            android:text="总时长(分钟)"
+                            android:textColor="@color/text_color_white"
+                            android:textSize="@dimen/textsize_3" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btStart"
+                style="@style/Commit_Button_Style"
+                android:layout_width="106dp"
+                android:layout_height="48dp"
+                android:text="开始长跑"
+                android:translationX="320px"
+                android:translationY="670px" />
+
+            <TextView
+                android:layout_width="306dp"
+                android:layout_height="48dp"
+                android:text="数据分析：根据用户您的习惯为您提供建议："
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="130px"
+                android:translationY="-195px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.8   km/h"
+                android:textColor="@color/basecolor"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:translationX="720px"
+                android:translationY="-140px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3:46"
+                android:textColor="@color/basecolor"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:translationX="720px"
+                android:translationY="-140px" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:text="北京林业大学男生公寓"
+                android:textColor="@color/basecolor"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:translationX="300px"
+                android:translationY="-115px" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="92     m"
+                android:textColor="@color/basecolor"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:translationX="720px"
+                android:translationY="-110px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="长跑速度:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="50px"
+                android:translationY="-500px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="长跑时间:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="50px"
+                android:translationY="-470px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="长跑地点:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="50px"
+                android:translationY="-440px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="长跑路程:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="50px"
+                android:translationY="-410px" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:layout_marginTop="@dimen/spacing_normal">
+
+        <RelativeLayout
+            android:id="@+id/re_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="back">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="@dimen/item_edge"
+                android:layout_marginRight="@dimen/item_edge"
+                android:background="@mipmap/icon_back_white" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
